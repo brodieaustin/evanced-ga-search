@@ -76,8 +76,7 @@ var init = function(){
     for (var i = 0; i < b.length; i++){
         b[i].addEventListener('click', function(){
             p = JSON.stringify(get_params());
-            //ga('send', 'event', 'find', 'click', p);
-            console.log('send', 'event', 'find events', 'click', p);
+            ga('send', 'event', 'find', 'click', p);
         }, false);
     }
 };
