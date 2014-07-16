@@ -1,0 +1,16 @@
+{
+  "name": "evanced-search",
+  "version": "0.0.0",
+  "description": "",
+  "main": "ga-events.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Skokie Public Library",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.6",
+    "gulp-uglify": "^0.3.1",
+    "gulp-rename": "^1.2.0"
+  }
+}
